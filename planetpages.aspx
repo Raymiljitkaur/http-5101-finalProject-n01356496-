@@ -4,6 +4,7 @@
     <asp:Button  class="button" Text="Add planet"  runat="server" PostBackUrl="~/addplanet.aspx" />
      <div class="planets_list" runat="server">
         <div class="listitem">
+               
             <div class="col1">PLANET NO</div>
             <div class="col2">PLANET TITLE</div>  
         </div>
