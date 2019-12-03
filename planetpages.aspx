@@ -9,6 +9,6 @@
             <div class="col2">PLANET TITLE</div>  
         </div>
         <div id="planets_result" runat="server"></div>
-       
+      
     </div>
 </asp:Content>
