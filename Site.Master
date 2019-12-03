@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HTTP_FINAL_PROJECT.SiteMaster" %>
+<%@ Register Src="~/pagenav.ascx" TagName="pagenav" TagPrefix="asp"%>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>PLANETS</title>
+    <link rel="stylesheet" type="text/css" href="/content/layout.css" />  
+</head>
+<body>
+    <header>
+        <div  class="div_width">
+            <a href="planetpages.aspx"><h1>PLANETS</h1></a>
+            <asp:pagenav id="pagedesign" runat="server" ></asp:pagenav>
+        </div>
+    </header>
+    <div class="div_width">
+         <form id="form1" runat="server">
+             <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+         </form>
+        </div>
+    <footer>
+        <div  class="div_width">
+            
+            <nav id="footer_nav">
+                <ul id="footer_menu">
+                     <li><a href="planetpages.aspx" style="color:#ffd2ac">PLANETS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
